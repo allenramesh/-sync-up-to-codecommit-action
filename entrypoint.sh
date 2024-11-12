@@ -1,5 +1,5 @@
 #!/bin/sh
-
+sh -c "git config --global --add safe.directory $PWD"
 set -ue
 
 RepositoryName="${INPUT_REPOSITORY_NAME}"
